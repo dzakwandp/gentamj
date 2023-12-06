@@ -95,7 +95,7 @@
     </div>
 
     <!-- why us section -->
-    <div class="flex flex-col w-full h-max mb-16">
+    <div class="flex flex-col w-full h-max">
       <div
         class="w-max text-4xl bg-blue-900 text-white font-medium self-center px-12 py-8 z-10">
         Mengapa Kami?
@@ -103,28 +103,57 @@
       <div
         class="flex w-full h-max text-xl bg-gray-300 text-black font-normal self-center text-justify px-12 pb-8 pt-16 -mt-12 z-0 gap-2">
         <div class="flex flex-col h-max w-1/4 items-center justify-center">
-          <div class="rounded-full h-max w-max p-1 bg-blue-900">
+          <div class="rounded-full h-max w-max p-2 bg-blue-900">
             <Check class="text-white" />
           </div>
           <span class="text-3xl">Berkualitas</span>
         </div>
         <div class="flex flex-col h-max w-1/4 items-center justify-center">
-          <div class="rounded-full h-max w-max p-1 bg-blue-900">
+          <div class="rounded-full h-max w-max p-2 bg-blue-900">
             <Earth class="text-white" />
           </div>
           <span class="text-3xl">Berwawasan Lingkungan</span>
         </div>
         <div class="flex flex-col h-max w-1/4 items-center justify-center">
-          <div class="rounded-full h-max w-max p-1 bg-blue-900">
+          <div class="rounded-full h-max w-max p-2 bg-blue-900">
             <Cpu class="text-white" />
           </div>
           <span class="text-3xl">Inovasi Teknologi</span>
         </div>
         <div class="flex flex-col h-max w-1/4 items-center justify-center">
-          <div class="rounded-full h-max w-max p-1 bg-blue-900">
+          <div class="rounded-full h-max w-max p-2 bg-blue-900">
             <Group class="text-white" />
           </div>
           <span class="text-3xl">SDM Unggul</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact us -->
+    <div class="flex w-full h-96 bg-gray-300 gap-20">
+      <div class="flex w-1/2 h-full items-center justify-end">
+        <div
+          class="flex w-40 h-80 -mr-4 z-0 pattern-cross pattern-slate-700 pattern-bg-gray-300 pattern-size-6 pattern-opacity-20"></div>
+        <div
+          class="flex w-1/2 h-1/3 bg-blue-900 items-center justify-center z-10">
+          <span class="text-2xl text-white">Informasi lebih lanjut</span>
+        </div>
+      </div>
+      <div class="flex flex-col w-1/2 h-full justify-center gap-10">
+        <div class="flex w-1/2 gap-2 items-center">
+          <Location class="text-blue-900" />
+          <p>
+            Ruko Thamrin Square Blok A5, Jl. MH. Thamrin No. 5, Sekayu, Semarang
+            Tengah, Kota Semarang, Jawa Tengah
+          </p>
+        </div>
+        <div class="flex w-1/2 gap-2 items-center">
+          <Phone class="text-blue-900" />
+          <p>024-3588766</p>
+        </div>
+        <div class="flex w-1/2 gap-2 items-center">
+          <Mail class="text-blue-900" />
+          <p>gentamultijayya@gmail.com</p>
         </div>
       </div>
     </div>
@@ -143,6 +172,9 @@ import Check from "@/components/icons/check.vue";
 import Cpu from "@/components/icons/cpu.vue";
 import Earth from "@/components/icons/earth.vue";
 import Group from "@/components/icons/group.vue";
+import Location from "@/components/icons/location.vue";
+import Mail from "@/components/icons/mail.vue";
+import Phone from "@/components/icons/phone.vue";
 
 export default {
   components: {
@@ -154,6 +186,9 @@ export default {
     Earth,
     Cpu,
     Group,
+    Location,
+    Mail,
+    Phone,
   },
 
   data() {
@@ -183,5 +218,9 @@ export default {
 .carousel__prev,
 .carousel__next {
   color: #ffffff;
+}
+.carousel__prev:hover,
+.carousel__next:hover {
+  color: #1e3a8a;
 }
 </style>

@@ -4,7 +4,7 @@
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
       fill="currentColor"
-      class="w-16 h-16">
+      class="w-14 h-14">
       <path d="M16.5 7.5h-9v9h9v-9z" />
       <path
         fill-rule="evenodd"
