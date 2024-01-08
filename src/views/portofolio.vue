@@ -1,13 +1,9 @@
 <template lang="">
-    <div>
-        this is portofolio
-    </div>
+  <div class="min-h-screen">
+    
+  </div>
 </template>
 <script>
-export default {
-    
-}
+export default {};
 </script>
-<style lang="">
-    
-</style>
+<style lang=""></style>

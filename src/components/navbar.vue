@@ -22,6 +22,7 @@ export default {
       navbarItems: [
         { title: "HOME", route: "/home" },
         { title: "PORTOFOLIO", route: "/portofolio" },
+        { title: "GALLERY", route: "/gallery" },
         { title: "ABOUT US", route: "/about" },
       ],
     };
