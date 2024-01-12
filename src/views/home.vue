@@ -6,7 +6,8 @@
         <Slide v-for="slide in carItems" :key="slide.index">
           <div
             class="carousel__item"
-            :style="{ backgroundImage: `url(` + slide.image + `)` }"></div>
+            :style="{ backgroundImage: `url(` + slide.image + `)` }"
+          ></div>
         </Slide>
 
         <template #addons>
@@ -20,15 +21,18 @@
     <div class="flex w-full h-max items-center mb-16">
       <div class="flex w-1/5 h-full justify-end self-end">
         <div
-          class="flex w-56 h-80 -mr-8 pattern-cross pattern-slate-700 pattern-bg-white pattern-size-6 pattern-opacity-20"></div>
+          class="flex w-56 h-80 -mr-8 pattern-cross pattern-slate-700 pattern-bg-white pattern-size-6 pattern-opacity-20"
+        ></div>
       </div>
       <div class="flex flex-col w-3/5 h-max z-10">
         <div
-          class="w-max text-4xl bg-blue-900 text-white font-medium self-center px-12 py-8 z-10">
+          class="w-max text-4xl bg-blue-900 text-white font-medium self-center px-12 py-8 z-10"
+        >
           Profile Kami
         </div>
         <div
-          class="w-full text-xl bg-gray-300 text-black font-normal self-center text-justify px-12 pb-8 pt-16 -mt-12 z-0">
+          class="w-full text-xl bg-gray-300 text-black font-normal self-center text-justify px-12 pb-8 pt-16 -mt-12 z-0"
+        >
           <p class="mb-4">
             GENTA MULTI JAYYA merupakan salah satu perusahaan yang bergerak di
             bidang Konstruksi Bangunan. Konstruksi yang menjadi bidikan, antara
@@ -51,11 +55,13 @@
       <!-- visi section -->
       <div class="flex flex-col h-max w-1/2">
         <div
-          class="w-max text-4xl bg-blue-900 text-white font-medium self-center px-12 py-4 z-10">
+          class="w-max text-4xl bg-blue-900 text-white font-medium self-center px-12 py-4 z-10"
+        >
           Visi
         </div>
         <div
-          class="flex w-2/3 h-[320px] text-xl bg-gray-300 text-black font-normal self-center text-justify items-center px-12 pb-8 pt-16 -mt-12 z-0">
+          class="flex w-2/3 h-[320px] text-xl bg-gray-300 text-black font-normal self-center text-justify items-center px-12 pb-8 pt-16 -mt-12 z-0"
+        >
           <p>
             Menjadi Perusahaan yang unggul dan merupakan aset nasional melalui
             bisnis pengembangan perkotaan dengan memanfaatkan reputasi dan
@@ -66,11 +72,13 @@
       <!-- misi section -->
       <div class="flex flex-col h-max w-1/2">
         <div
-          class="w-max text-4xl bg-blue-900 text-white font-medium self-center px-12 py-4 z-10">
+          class="w-max text-4xl bg-blue-900 text-white font-medium self-center px-12 py-4 z-10"
+        >
           Misi
         </div>
         <div
-          class="w-2/3 text-xl bg-gray-300 text-black font-normal self-center text-justify px-12 pb-8 pt-16 -mt-12 z-0">
+          class="w-2/3 text-xl bg-gray-300 text-black font-normal self-center text-justify px-12 pb-8 pt-16 -mt-12 z-0"
+        >
           <ul class="list-disc">
             <li>
               Mengutamakan pertumbuhan yang berkesinambungan, berkualitas dan
@@ -91,17 +99,20 @@
     </div>
     <div class="flex w-full h-16 mb-8 justify-center">
       <div
-        class="flex w-2/3 h-16 pattern-cross pattern-slate-700 pattern-bg-white pattern-size-6 pattern-opacity-20"></div>
+        class="flex w-2/3 h-16 pattern-cross pattern-slate-700 pattern-bg-white pattern-size-6 pattern-opacity-20"
+      ></div>
     </div>
 
     <!-- why us section -->
     <div class="flex flex-col w-full h-max">
       <div
-        class="w-max text-4xl bg-blue-900 text-white font-medium self-center px-12 py-8 z-10">
+        class="w-max text-4xl bg-blue-900 text-white font-medium self-center px-12 py-8 z-10"
+      >
         Mengapa Kami?
       </div>
       <div
-        class="flex w-full h-max text-xl bg-gray-300 text-black font-normal self-center text-justify px-12 pb-8 pt-16 -mt-12 z-0 gap-2">
+        class="flex w-full h-max text-xl bg-gray-300 text-black font-normal self-center text-justify px-12 pb-8 pt-16 -mt-12 z-0 gap-2"
+      >
         <div class="flex flex-col h-max w-1/4 items-center justify-center">
           <div class="rounded-full h-max w-max p-2 bg-blue-900">
             <Check class="text-white" />
@@ -133,9 +144,11 @@
     <div class="flex w-full h-96 bg-gray-300 gap-20">
       <div class="flex w-1/2 h-full items-center justify-end">
         <div
-          class="flex w-40 h-80 -mr-4 z-0 pattern-cross pattern-slate-700 pattern-bg-gray-300 pattern-size-6 pattern-opacity-20"></div>
+          class="flex w-40 h-80 -mr-4 z-0 pattern-cross pattern-slate-700 pattern-bg-gray-300 pattern-size-6 pattern-opacity-20"
+        ></div>
         <div
-          class="flex w-1/2 h-1/3 bg-blue-900 items-center justify-center z-10">
+          class="flex w-1/2 h-1/3 bg-blue-900 items-center justify-center z-10"
+        >
           <span class="text-2xl text-white">Informasi lebih lanjut</span>
         </div>
       </div>

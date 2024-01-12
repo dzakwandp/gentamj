@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "@/views/home.vue";
-import Portofolio from "@/views/portofolio.vue";
-import Gallery from "@/views/gallery.vue";
+import Project from "@/views/project.vue";
 import About from "@/views/about.vue";
 
 import DefaultLayout from "@/layout/default.vue";
@@ -21,14 +20,9 @@ const router = createRouter({
           component: Home,
         },
         {
-          path: "portofolio",
-          name: "portofolio",
-          component: Portofolio,
-        },
-        {
-          path: "gallery",
-          name: "gallery",
-          component: Gallery,
+          path: "project",
+          name: "project",
+          component: Project,
         },
         {
           path: "about",

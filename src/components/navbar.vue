@@ -21,8 +21,7 @@ export default {
       logo: Logo,
       navbarItems: [
         { title: "HOME", route: "/home" },
-        { title: "PORTOFOLIO", route: "/portofolio" },
-        { title: "GALLERY", route: "/gallery" },
+        { title: "PROJECT", route: "/project" },
         { title: "ABOUT US", route: "/about" },
       ],
     };
