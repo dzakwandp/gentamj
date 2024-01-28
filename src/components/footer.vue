@@ -1,7 +1,7 @@
 <template lang="">
   <div class="flex flex-col w-full mt-16">
     <div class="flex w-full h-8 bg-blue-900"></div>
-    <div class="flex w-full h-max p-8 gap-40">
+    <div class="flex flex-col md:flex-row w-full h-max p-8 gap-40">
       <!-- logo section -->
       <div class="flex w-1/2 justify-end items-center">
         <img class="h-14" :src="logo" />
