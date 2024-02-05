@@ -154,18 +154,18 @@
       </div>
       <div class="flex flex-col w-1/2 h-full justify-center gap-10">
         <div class="flex w-1/2 gap-2 items-center">
-          <Location class="text-blue-900" />
+          <Location class="text-blue-900 w-20" />
           <p>
             Ruko Thamrin Square Blok A5, Jl. MH. Thamrin No. 5, Sekayu, Semarang
             Tengah, Kota Semarang, Jawa Tengah
           </p>
         </div>
         <div class="flex w-1/2 gap-2 items-center">
-          <Phone class="text-blue-900" />
+          <Phone class="text-blue-900 w-6" />
           <p>024-3588766</p>
         </div>
         <div class="flex w-1/2 gap-2 items-center">
-          <Mail class="text-blue-900" />
+          <Mail class="text-blue-900 w-6" />
           <p>gentamultijayya@gmail.com</p>
         </div>
       </div>
