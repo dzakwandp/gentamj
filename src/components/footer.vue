@@ -1,16 +1,16 @@
 <template lang="">
   <div class="flex flex-col w-full mt-16">
     <div class="flex w-full h-8 bg-blue-900"></div>
-    <div class="flex flex-col md:flex-row w-full h-max p-8 gap-40">
+    <div class="flex flex-col md:flex-row w-full h-max p-8 gap-8 md:gap-40">
       <!-- logo section -->
-      <div class="flex w-1/2 justify-end items-center">
+      <div class="flex md:w-1/2 justify-center md:justify-end items-center">
         <img class="h-14" :src="logo" />
       </div>
 
       <!-- address section -->
-      <div class="flex flex-col w-1/2">
+      <div class="flex flex-col w-full md:w-1/2 items-center md:items-start">
         <h1 class="text-lg font-semibold text-blue-900">Genta Multi Jayya</h1>
-        <p class="w-1/2">
+        <p class="text-sm md:w-1/2">
           Ruko Thamrin Square Blok A5, Jl. MH. Thamrin No. 5, Sekayu, Semarang
           Tengah, Kota Semarang, Jawa Tengah
         </p>
