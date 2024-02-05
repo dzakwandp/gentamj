@@ -31,7 +31,7 @@
           Profile Kami
         </div>
         <div
-          class="w-full text-xl bg-gray-300 text-black font-normal self-center text-justify px-12 pb-8 pt-16 -mt-12 z-0"
+          class="w-full text-base md:text-xl bg-gray-300 text-black font-normal self-center text-justify px-12 pb-8 pt-16 -mt-12 z-0"
         >
           <p class="mb-4">
             GENTA MULTI JAYYA merupakan salah satu perusahaan yang bergerak di
@@ -51,16 +51,16 @@
     </div>
 
     <!-- visi misi section -->
-    <div class="flex h-max w-full">
+    <div class="flex flex-col md:flex-row gap-6 md:gap-0 h-max w-full">
       <!-- visi section -->
-      <div class="flex flex-col h-max w-1/2">
+      <div class="flex flex-col h-max md:w-1/2">
         <div
           class="w-max text-4xl bg-blue-900 text-white font-medium self-center px-12 py-4 z-10"
         >
           Visi
         </div>
         <div
-          class="flex w-2/3 h-[320px] text-xl bg-gray-300 text-black font-normal self-center text-justify items-center px-12 pb-8 pt-16 -mt-12 z-0"
+          class="flex w-2/3 h-[320px] text-base md:text-xl bg-gray-300 text-black font-normal self-center text-justify items-center px-12 pb-8 pt-16 -mt-12 z-0"
         >
           <p>
             Menjadi Perusahaan yang unggul dan merupakan aset nasional melalui
@@ -70,14 +70,14 @@
         </div>
       </div>
       <!-- misi section -->
-      <div class="flex flex-col h-max w-1/2">
+      <div class="flex flex-col h-max md:w-1/2">
         <div
           class="w-max text-4xl bg-blue-900 text-white font-medium self-center px-12 py-4 z-10"
         >
           Misi
         </div>
         <div
-          class="w-2/3 text-xl bg-gray-300 text-black font-normal self-center text-justify px-12 pb-8 pt-16 -mt-12 z-0"
+          class="w-2/3 text-base md:text-xl bg-gray-300 text-black font-normal self-center text-justify px-12 pb-8 pt-16 -mt-12 z-0"
         >
           <ul class="list-disc">
             <li>
@@ -111,60 +111,60 @@
         Mengapa Kami?
       </div>
       <div
-        class="flex w-full h-max text-xl bg-gray-300 text-black font-normal self-center text-justify px-12 pb-8 pt-16 -mt-12 z-0 gap-2"
+        class="flex flex-col md:flex-row w-full h-max text-xl bg-gray-300 text-black font-normal items-center text-justify md:px-12 md:pb-8 pt-16 -mt-12 z-0 gap-2"
       >
         <div class="flex flex-col h-max w-1/4 items-center justify-center">
           <div class="rounded-full h-max w-max p-2 bg-blue-900">
             <Check class="text-white" />
           </div>
-          <span class="text-3xl">Berkualitas</span>
+          <span class="text-xl w-max md:w-auto md:text-3xl">Berkualitas</span>
         </div>
         <div class="flex flex-col h-max w-1/4 items-center justify-center">
           <div class="rounded-full h-max w-max p-2 bg-blue-900">
             <Earth class="text-white" />
           </div>
-          <span class="text-3xl">Berwawasan Lingkungan</span>
+          <span class="text-xl w-max md:w-auto md:text-3xl">Berwawasan Lingkungan</span>
         </div>
         <div class="flex flex-col h-max w-1/4 items-center justify-center">
           <div class="rounded-full h-max w-max p-2 bg-blue-900">
             <Cpu class="text-white" />
           </div>
-          <span class="text-3xl">Inovasi Teknologi</span>
+          <span class="text-xl w-max md:w-auto md:text-3xl">Inovasi Teknologi</span>
         </div>
         <div class="flex flex-col h-max w-1/4 items-center justify-center">
           <div class="rounded-full h-max w-max p-2 bg-blue-900">
             <Group class="text-white" />
           </div>
-          <span class="text-3xl">SDM Unggul</span>
+          <span class="text-xl w-max md:w-auto md:text-3xl">SDM Unggul</span>
         </div>
       </div>
     </div>
 
     <!-- contact us -->
-    <div class="flex w-full h-96 bg-gray-300 gap-20">
-      <div class="flex w-1/2 h-full items-center justify-end">
+    <div class="flex flex-col md:flex-row w-full h-96 bg-gray-300 md:gap-20">
+      <div class="flex md:w-1/2 h-full items-center justify-center md:justify-end">
         <div
-          class="flex w-40 h-80 -mr-4 z-0 pattern-cross pattern-slate-700 pattern-bg-gray-300 pattern-size-6 pattern-opacity-20"
+          class="hidden md:flex w-40 h-80 -mr-4 z-0 pattern-cross pattern-slate-700 pattern-bg-gray-300 pattern-size-6 pattern-opacity-20"
         ></div>
         <div
-          class="flex w-1/2 h-1/3 bg-blue-900 items-center justify-center z-10"
+          class="flex w-max h-max p-4 md:p-0 md:w-1/2 md:h-1/3 bg-blue-900 items-center justify-center z-10"
         >
-          <span class="text-2xl text-white">Informasi lebih lanjut</span>
+          <span class="text-xl md:text-2xl text-white">Informasi lebih lanjut</span>
         </div>
       </div>
-      <div class="flex flex-col w-1/2 h-full justify-center gap-10">
-        <div class="flex w-1/2 gap-2 items-center">
+      <div class="flex flex-col w-full md:w-1/2 h-full px-4 md:px-0 mb-8 justify-center gap-10">
+        <div class="flex md:w-1/2 gap-2 items-center">
           <Location class="text-blue-900 w-20" />
           <p>
             Ruko Thamrin Square Blok A5, Jl. MH. Thamrin No. 5, Sekayu, Semarang
             Tengah, Kota Semarang, Jawa Tengah
           </p>
         </div>
-        <div class="flex w-1/2 gap-2 items-center">
+        <div class="flex md:w-1/2 gap-2 items-center">
           <Phone class="text-blue-900 w-6" />
           <p>024-3588766</p>
         </div>
-        <div class="flex w-1/2 gap-2 items-center">
+        <div class="flex md:w-1/2 gap-2 items-center">
           <Mail class="text-blue-900 w-6" />
           <p>gentamultijayya@gmail.com</p>
         </div>
