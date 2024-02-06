@@ -18,7 +18,7 @@
   </div>
 </template>
 <script>
-import image from "@/assets/image/images.json";
+import image from "@/assets/images.json";
 export default {
   data() {
     return {
